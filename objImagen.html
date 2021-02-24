@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objeto documento</title>
+    <script type="text/javascript">
+        if (document.images) {
+            var imagenUno = new images();
+            imagenUno.src = "phyton.png";
+            var imagenDos = new images();
+
+            imagenDos.src = "programin.jpg";
+
+        }
+        function primera(nombreImagen) {
+            if (document.images) {
+                document[nombreImagen].src = imagenDos.src;
+
+            }
+
+            function segunda(nombreImagen) {
+                if (document.images) {
+                    document[nombreImagen].src = imagenUno.src;
+
+                }
+            }
+
+    </script>
+</head>
+
+<body>
+<a href="imagenes.htm"  onMouseOver="primera('prueba');" onMouseOut="segunda('prueba');">
+<img name="prueba" src="phyton.png" alt="bu" border="0">
+</a>
+</body>
+
+</html>
