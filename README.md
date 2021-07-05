@@ -1,3 +1,3 @@
 # JavaScript_Iniciando
 
-Practicas de JavaScript, conceptos fundamentales para comenzar
+Fragmentos de codigo, conceptos fundamentales para comenzar con la programacion en Javascript 

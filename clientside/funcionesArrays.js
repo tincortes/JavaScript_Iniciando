@@ -1,9 +1,3 @@
-
-
-/*var semana1 = ["lunes","martes","miercoles"];
-semana2= semana1.concat("jueves","viernes");
-console.log("los dias son "+semana2);*/
-
 /*var array =["muy","buenos","dias"];
 var saludo =array.join("")
 var saludo2 =array.join(" ")
@@ -27,6 +21,9 @@ var asignaturas=["idiomas","matematicas","fisica"];
 asignaturas.push("literatura")
 console.log("ahora tenemos : "+asignaturas);*/
 
+var semana1 = ["lunes", "martes", "miercoles"];
+semana2 = semana1.concat("jueves", "viernes");
+console.log("los dias son " + semana2);
 
 /*
 var numeros =[7,6,9];
@@ -39,7 +36,6 @@ var numeros =[7,6,9];
 console.log("son: "+numeros)
 numeros.unshift(0);
 console.log("agregamos uno : "+numeros);*/
-
 
 /*
 var array=[8,6,3,5];
@@ -65,6 +61,3 @@ console.log(numeros1);
 var ej= numeros1.toFixed();
 console.log(num);
 console.log(ej);*/
-
-
-
